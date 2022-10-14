@@ -1,4 +1,4 @@
-import Schools from "../../../models/schools";
+import Schools from "../../../models/user"
 import db from "../../../lib/dbConnect";
 
 export default async function handler(req, res) {
