@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import { useRouter } from "next/router";
 
 const AddSchool = () => {
-    CONST [data, setData] = useState({
+    const [data, setData] = useState({
         title: "",
         body: "",
     });
